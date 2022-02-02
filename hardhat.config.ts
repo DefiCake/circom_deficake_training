@@ -7,6 +7,8 @@ import '@nomiclabs/hardhat-etherscan'
 import 'solidity-coverage'
 import 'hardhat-deploy'
 import 'hardhat-deploy-ethers'
+import '@atixlabs/hardhat-time-n-mine'
+
 import { HardhatUserConfig, NetworksUserConfig } from 'hardhat/types'
 
 const ETHERSCAN_API_KEY = process.env.ETHERSCAN_API_KEY

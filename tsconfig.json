@@ -10,5 +10,5 @@
     "types": ["@nomiclabs/hardhat-ethers", "@nomiclabs/hardhat-waffle"]
   },
   "include": ["./scripts", "./test", "./deploy"],
-  "files": ["./hardhat.config.ts"]
+  "files": ["./hardhat.config.ts", "types/index.d.ts"]
 }
