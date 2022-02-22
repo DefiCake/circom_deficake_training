@@ -1,12 +1,12 @@
 import dotenv from 'dotenv'
 dotenv.config()
 
+import '@nomiclabs/hardhat-ethers'
 import '@nomiclabs/hardhat-waffle'
 import '@typechain/hardhat'
 import '@nomiclabs/hardhat-etherscan'
 import 'solidity-coverage'
 import 'hardhat-deploy'
-import 'hardhat-deploy-ethers'
 import '@atixlabs/hardhat-time-n-mine'
 
 import { HardhatUserConfig, NetworksUserConfig } from 'hardhat/types'
