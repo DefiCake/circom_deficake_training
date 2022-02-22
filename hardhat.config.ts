@@ -17,8 +17,10 @@ const ETHERSCAN_API_KEY = process.env.ETHERSCAN_API_KEY
 let networks: NetworksUserConfig = {}
 
 if (process.env.GOERLI) {
+  const accounts = process.env.PRIVATE_KEY ? [process.env.PRIVATE_KEY] : undefined
   networks['goerli'] = {
     url: process.env.GOERLI,
+    accounts,
   }
 }
 
