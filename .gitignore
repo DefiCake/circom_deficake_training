@@ -5,3 +5,5 @@ typechain/
 artifacts/
 coverage*
 .env
+.vscode
+yarn-error.log
