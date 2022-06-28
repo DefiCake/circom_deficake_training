@@ -1,5 +1,5 @@
 import { deployments } from 'hardhat'
-import { Counter__factory } from '../../typechain'
+import { Counter__factory } from '../../typechain-types'
 
 export const CounterFixture = deployments.createFixture(async ({ deployments, ethers }) => {
   await deployments.fixture()
